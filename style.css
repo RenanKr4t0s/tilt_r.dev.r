@@ -1,0 +1,36 @@
+:root{
+    --color-bdark: #0a1854;
+    --color-green: #ccfd54;
+    --color-bclear: #6290c2;
+    --color-white: #fff;
+    --font-main: Grav;
+    --font-second: High;
+}
+.container{
+    width:auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    color: var(--color-green);
+    width: 40rem;
+    height: 20rem;
+    background-color: var(--color-bclear);
+    padding: 4rem;
+    text-align: center;
+    margin: 60px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    border-radius: 15px;
+    box-shadow: 3px 3px var(--color-bdark);
+}
+.box h2{
+    padding-bottom: 1rem;
+    transform: translateZ(40px);
+}
+.box img{
+    width: 90%;
+    transform: translateZ(60px);
+}
